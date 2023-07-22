@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #000; /* Set the background to black */
+}
+
+.countdown-timer {
+  width: 849px;
+height: 132px;
+flex-shrink: 0;
+  text-align: center;
+  padding: 20px;
+  border-radius: 20px;
+background: #34344A;/* Set the background for the countdown timer */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.set-time{
+  width:142px;
+  color: #FFF;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+h1 {
+  margin-bottom: 20px;
+  color: #fff; /* Set the text color to white */
+}
+
+.input-container {
+  color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 48px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-decoration-line: underline;
+  
+}
+colon{
+  color: #FFF;
+font-family: Roboto;
+font-size: 48px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+label {
+  font-size: 18px;
+  color: #fff; /* Set the label text color to white */
+}
+
+input[type=numbers] {
+  color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 48px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-decoration-line: underline; /* Set the input background color */
+}
+placeholder{
+  color: #000;
+  font-size: 12px;
+}
+button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.timer-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.timer-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  background-color: #444;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.timer-display {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.times-up-display {
+  display: none;
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffcc00; /* Yellow color for "Time's UP!" message */
+  margin-top: 10px;
+}
