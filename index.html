@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multiple Timers App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="countdown-timer">
+    <h1>Multiple Timers App</h1>
+    <div class="input-container">
+      <span class="set-time">Set Time <span id="colon">:</span> </span>
+      <label for="hours"></label>
+      <input type="number" placeholder="hh" id="hours" min="0">
+      <label for="minutes"></label>
+      <span id="colon">:</span>
+      <input type="number" placeholder="mm" id="minutes" min="0" max="59">
+      <label for="seconds"></label>
+      <span id="colon">:</span>
+      <input type="number" placeholder="ss" id="seconds" min="0" max="59">
+      <button id="add-timer">Set</button>
+    </div>
+    <div class="timer-list">
+      <!-- Timer cards will be dynamically added here -->
+    </div>
+    <button id="current-timers">Current Timers</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
